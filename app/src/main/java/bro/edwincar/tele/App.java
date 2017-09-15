@@ -13,9 +13,9 @@ public class App extends Application {
     public void onCreate() {
         super.onCreate();
         Parse.initialize(new Parse.Configuration.Builder(this)
-                .applicationId("Edwi64asdzxc654sda")
-                .server("http://localhost:4040/apps/CursoAndroidios/")
-                //.server("http://localhost:1337/parse/")
+                .applicationId("1q2w3e4r5t6y")
+                //.server("http://localhost:4040/apps/CursoAndroidios/")
+                .server("http://192.168.2.135:1337/parse/")
                 .build()
         );
     }
