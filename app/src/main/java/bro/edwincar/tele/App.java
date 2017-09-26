@@ -15,7 +15,7 @@ public class App extends Application {
         Parse.initialize(new Parse.Configuration.Builder(this)
                 .applicationId("1q2w3e4r5t6y")
                 //.server("http://localhost:4040/apps/CursoAndroidios/")
-                .server("http://192.168.0.125:1337/parse/")
+                .server("http://192.168.0.100:1337/parse/")
                 .enableLocalDataStore()
                 .build()
         );
